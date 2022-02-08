@@ -1,4 +1,4 @@
-FROM docker.io/library/fedora:latest
+FROM docker.io/library/fedora:34
 MAINTAINER alexander@redhat.com
 RUN yum install -y postgresql-server
 USER postgres
